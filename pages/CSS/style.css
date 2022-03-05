@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+:root {
+  --primary-color: #0417aed;
+}
+
 * {
   box-sizing: border-box;
   padding :0 ;
@@ -37,7 +41,7 @@ img {
 }
 
 .navbar {
-  background-color: #047aed;
+  background-color: var(--primary-color);
   color: #fff;
   height: 70px;
 }
@@ -58,6 +62,7 @@ img {
 .navbar .flex {
   justify-content: space-between;
 }
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
